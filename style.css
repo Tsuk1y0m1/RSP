@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(63, 2, 175);
+}
+
+.content {
+  margin: 4rem auto 0;
+  width: 70%;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 3rem 0;
+
+}
+
+.containerChoice {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.choice img {
+  width: 300px;
+  height: 300px;
+  border: white solid 2px;
+  opacity: 90%;
+}
+
+.choice img:hover,
+.start:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.start {
+  width: fit-content;
+  margin: 1rem auto 0;
+  padding: 0 1rem;
+  background: rgb(38,0,110);
+  border: white solid 2px;
+}
